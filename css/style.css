@@ -1,0 +1,78 @@
+body {
+	background-color: #393e46;
+	text-align: center;
+	color: antiquewhite;
+}
+h1 {
+	font-size: 5rem;
+	font-family: "Lobster", sans-serif;
+	color: #1aa6b7;
+}
+h2 {
+	font-size: 3rem;
+	font-family: "Indie Flower", sans-serif;
+}
+.container {
+	width: 60%;
+	margin: auto;
+}
+.dice {
+	display: inline-block;
+	margin: 5px;
+}
+.dice-img {
+	width: 70%;
+}
+.animation {
+	animation-name: spin;
+	animation-duration: 1.5s;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(360deg);
+	}
+}
+
+.btn {
+	display: block;
+	margin: 100px auto 100px auto;
+	width: 50%;
+	height: 80px;
+	font-family: "Lobster Two", sans-serif;
+	font-size: 2rem;
+	color: antiquewhite;
+	background-color: #1aa6b7;
+	border-style: none;
+	border-radius: 5px;
+}
+.btn:hover {
+	color: antiquewhite;
+	background-color: #ca6c6c;
+}
+footer {
+	font-size: 1.3rem;
+	font-family: "Indie Flower", sans-serif;
+	vertical-align: baseline;
+}
+
+@media (max-width: 480px) {
+	h1 {
+		font-size: 3rem;
+	}
+	h2 {
+		font-size: 1.5rem;
+	}
+	.container {
+		width: 100%;
+	}
+	.dice {
+		width: 40%;
+		margin: 0;
+		padding: 0;
+		display: inline-block;
+	}
+	.dice-img {
+		max-width: 100%;
+	}
+}
