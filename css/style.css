@@ -36,7 +36,7 @@ h2 {
 
 .btn {
 	display: block;
-	margin: 100px auto 100px auto;
+	margin: 100px auto 10% auto;
 	width: 50%;
 	height: 80px;
 	font-family: "Lobster Two", sans-serif;
@@ -47,7 +47,7 @@ h2 {
 	border-radius: 5px;
 }
 .img-results {
-	width: 20%;
+	width: 10%;
 }
 
 .btn:hover {
@@ -78,5 +78,14 @@ footer {
 	}
 	.dice-img {
 		max-width: 100%;
+	}
+	.img-results {
+		width: 20%;
+	}
+}
+
+@media (min-width: 2000px) {
+	.img-results {
+		width: 5%;
 	}
 }
