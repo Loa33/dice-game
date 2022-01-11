@@ -18,10 +18,10 @@ function changeDiceImage() {
 function winner(random1, random2) {
 	const element = document.querySelector("h1");
 	if (random1 > random2) {
-		element.innerHTML = `<img src="assets/images/winner.png"/> Win Player 1`;
+		element.innerHTML = `<img class="img-results" src="assets/images/winner.png"/> Win Player 1`;
 	} else if (random2 > random1) {
-		element.innerHTML = `Win Player 2 <img src="assets/images/winner.png"/> `;
+		element.innerHTML = `Win Player 2 <img class="img-results" src="assets/images/winner.png"/> `;
 	} else {
-		element.innerHTML = `<img src="assets/images/handshake.png"/> It's a draw!`;
+		element.innerHTML = `<img class="img-results" src="assets/images/handshake.png"/> It's a draw!`;
 	}
 }

@@ -46,6 +46,10 @@ h2 {
 	border-style: none;
 	border-radius: 5px;
 }
+.img-results {
+	width: 20%;
+}
+
 .btn:hover {
 	color: antiquewhite;
 	background-color: #ca6c6c;
